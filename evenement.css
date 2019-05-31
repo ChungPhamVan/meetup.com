@@ -58,6 +58,7 @@ body {
 	height: 256px;
 	box-shadow: 1px 1px 3px 1px #EEE;
 	position: relative;
+	transition: all 0.4s;
 }
 .evenement .box-evenement .sum-box .box .content {
 	position: absolute;
@@ -68,6 +69,7 @@ body {
 }
 .evenement .box-evenement .sum-box .box:hover {
 	box-shadow: 1px 1px 5px 1px #DDD;
+	transform: translate(0px, -1px);
 }
 
 .evenement .box-evenement .sum-box .box .box-content {
