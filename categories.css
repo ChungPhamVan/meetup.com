@@ -46,8 +46,7 @@
 	width: 100%;
 	height: 168px;
 	overflow: hidden;
-	border-top-right-radius: 8px;
-	border-top-left-radius: 8px;
+	border-radius: 8px;
 }
 .category .category-box .category-bottom .row-1 .box-1 .image{
 	width: 100%;

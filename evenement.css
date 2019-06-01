@@ -77,6 +77,7 @@ body {
 	height: 100%;
 	box-sizing: border-box;
 	padding: 20px 20px 0px;
+	cursor: pointer;
 }
 .evenement .box-evenement .sum-box .box .box-content .time {
 	color: #0098ab;
@@ -137,8 +138,7 @@ body {
 .evenement .box-evenement .sum-box .box .box-content .content-button .button {
 	margin-bottom: 0px;
 }
-.evenement .box-evenement .sum-box .box:hover .button-participer {
+.evenement .box-evenement .sum-box .box .button:hover .button-participer {
 	background-color: #0098ab;
 	color: white;
-	border-color: red;
 }
