@@ -51,17 +51,15 @@
 }
 .footer-body .suive {
 	flex-grow: 1;
+	list-style-type: none;
 	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 40px;
 } 
-.footer-body .suive .li-icon {
-	padding-top: 22px;
-}
 .footer-body .suive li {
 	color: white; 
 	list-style-type: none; 
-	padding-left: 0px; 
-	padding-top: 0px; 
-	margin-top: 40px;
+	padding-top: 22px; 
 }
 .footer-body .suive .li-icon .icon-link {
 	text-decoration: none;
