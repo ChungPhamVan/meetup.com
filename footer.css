@@ -1,0 +1,90 @@
+* {
+	font-family: Arial, sans-serif;
+}
+.footer-footer {
+	width: 100%;
+	height: 480px;
+	background-color: #353e48;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-header {
+	width: 1100px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+.footer-header a {
+    color: white;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.footer-header a:hover {
+	text-decoration: none;
+}
+.footer-body {
+	flex-grow: 1;
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.footer-body .mon-compte, .decou, .meetup {
+	color: white;
+	width: 250px;
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 40px;
+}
+.footer-body ul .li {
+	padding-top: 22px;
+}
+.footer-body .link {
+	color: #AAA;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer-body .suive {
+	flex-grow: 1;
+	padding-left: 0px;
+} 
+.footer-body .suive .li-icon {
+	padding-top: 22px;
+}
+.footer-body .suive li {
+	color: white; 
+	list-style-type: none; 
+	padding-left: 0px; 
+	padding-top: 0px; 
+	margin-top: 40px;
+}
+.footer-body .suive .li-icon .icon-link {
+	text-decoration: none;
+	font-size: 24px;
+	color: #BBB;
+	padding-right: 40px;
+}
+.footer-body .suive .select-content .select-box {
+	user-select: none;
+	width: 100%;
+	height: 55px;
+	line-height: 1.45;
+	background-color: #0f1721;
+	font-size: 100%;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-weight: 600;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+.footer-body .suive .image {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
